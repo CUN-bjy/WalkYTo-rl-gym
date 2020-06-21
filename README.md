@@ -5,10 +5,6 @@ Walk Yourself, Toddler! Toddlers can learn by deep reinforcement learning now.
 
 ## Environment Setup
 
-![](./ant_v1.png)
-
-
-
 #### Basic Environment
 
 - ubuntu 18.04
@@ -21,7 +17,7 @@ Walk Yourself, Toddler! Toddlers can learn by deep reinforcement learning now.
 
 
 
-#### Docker Image
+#### Installation from Docker Image
 
 you can get this environment by docker image, easily.
 
@@ -38,4 +34,29 @@ FROM docker.pkg.github.com/cun-bjy/walkyto-rl/rl-gym:base
 ```
 
 
+
+#### How to Run Container
+
+```bash
+docker run -it --name gym --env="DISPLAY" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" gym:base
+```
+
+설명:
+
+​	`--env="DISPLAY" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw"`
+
+​	: container내부의 환경을 host에서 GUI로 볼 수 있도록 설정
+
+
+
+#### Test Code on Container
+
+```bash
+#on the container
+cd $HOME; python ant_v1.py
+```
+
+
+
+<img src="./ant_v1.png" style="zoom:30%;" />
 
