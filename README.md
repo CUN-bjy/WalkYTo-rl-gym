@@ -1,4 +1,5 @@
 # WalkYTo-rl
+
 Walk Yourself, Toddler! Toddlers can learn by deep reinforcement learning now.
 
 
@@ -61,4 +62,15 @@ cd $HOME; python ant_v1.py
 
 
 <img src="./ant_v1.png" style="zoom:30%;" />
+
+
+
+
+
+## What's New
+
+**2020-06-20** 
+
+- **rl-gym** environemennt package pre-released
+
 
