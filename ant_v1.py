@@ -2,7 +2,20 @@ import roboschool
 import gym
 
 env = gym.make('RoboschoolAnt-v1')
-env.reset()
-while True:
-    env.step(env.action_space.sample())
+
+observation = env.reset()
+
+for _ in range(1000):
+  
     env.render()
+    
+    #your agent goes here
+    action = env.action_space.sample() 
+         
+    observation, reward, done, info = env.step(action) 
+   
+        
+    if done: 
+      break;
+            
+env.close()
