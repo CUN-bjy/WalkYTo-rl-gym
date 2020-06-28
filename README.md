@@ -107,4 +107,4 @@ $$
 
 **2020-06-28**
 
-- **rl-gym:keras** package released
+- ~~**rl-gym:keras** package released~~
