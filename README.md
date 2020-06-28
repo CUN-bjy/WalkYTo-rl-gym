@@ -1,5 +1,4 @@
 # WalkYTo-rl
-
 Walk Yourself, Toddler! Toddlers can learn by deep reinforcement learning now.
 
 
@@ -16,7 +15,8 @@ Walk Yourself, Toddler! Toddlers can learn by deep reinforcement learning now.
 - [gym-0.15.4](https://github.com/openai/gym)
 - [roboschool-1.0.48](https://github.com/openai/roboschool)
 
-
+- tensorflow
+- keras
 
 ## Installation
 
@@ -61,7 +61,7 @@ cd $HOME; python ant_v1.py
 
 
 
-<p styple="zoom:30%"><img src="./ant_v1.png" /></p>
+<img src="./ant_v1.png" style="zoom:30%;" />
 
 
 
@@ -72,15 +72,4 @@ cd $HOME; python ant_v1.py
 **2020-06-20** 
 
 - **rl-gym** environemennt package pre-released
-
-
-
-
-
-## What's New
-
-**2020-06-20** 
-
-- **rl-gym** environemennt package pre-released
-
 
