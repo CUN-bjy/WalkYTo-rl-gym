@@ -60,7 +60,7 @@ cd $HOME; python ant_v1.py
 
 
 
-<img src="./ant_v1.png" style="zoom:30%;" />
+<img src="./img/ant_v1.png" style="zoom:30%;" />
 
 
 
