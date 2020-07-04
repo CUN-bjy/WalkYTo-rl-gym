@@ -85,17 +85,16 @@ same with *mujoco-ant* in openai-gym
 
 - rewards:
   - forward_reward : how far ant goes on
+  
   - control_cost : total actuator's toque
+  
   - contact_cost : how many time body contact on the ground
+  
   - survive_reward : how long time ant goes on
-
-$$
-r_{forward} = (x_t - x_{t-1})/\Delta t
-\\J_{control} = \sum_a \frac{1}{2}a^2
-\\J_{contact} = \frac{1}{2}e^{-3} \sum_a (f_{external force})^2,\quad -1.0<f_{externalforce}<1.0
-\\r_{survice} = 1.0
-\\R=r_{forward} - J_{control} - J_{contact} + r_{survice}
-$$
+  
+    
+  
+    <p align="center"><img src="./img/render1.png"/></p>
 
 
 
