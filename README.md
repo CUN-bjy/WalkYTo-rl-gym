@@ -84,13 +84,13 @@ similar to  *mujoco-ant* in openai-gym
   - info =[hip_1, hip_2, hip_3, hip_4, ankle_1, ankle_2, ankle_3, ankle_4]
 
 - rewards:
-  - forward_reward : how far ant goes on
+  - forward_reward : how far ANT goes on
   
   - control_cost : total actuator's toque
   
-  - contact_cost : how many time body contact on the ground
+  - contact_cost : how many times the body contact on the ground
   
-  - survive_reward : how long time ant goes on
+  - survive_reward : how long time the ANT goes on
   
     
   
