@@ -15,7 +15,7 @@ Walk Yourself, Toddler! Toddlers can learn by deep reinforcement learning now.
 - [gym-0.15.4](https://github.com/openai/gym)
 - [roboschool-1.0.48](https://github.com/openai/roboschool)
 - tensorflow-2.2
-- keras
+- keras-2.4.3
 
 
 
@@ -70,7 +70,7 @@ cd $HOME; python ant_v1.py
 
 #### RoboschoolAnt
 
-same with *mujoco-ant* in openai-gym
+similar to  *mujoco-ant* in openai-gym
 
 - observation
   - dim = 28
@@ -104,6 +104,6 @@ same with *mujoco-ant* in openai-gym
 
 - **rl-gym** environement package pre-released
 
-**2020-06-28**
+**2020-07-04**
 
-- ~~**rl-gym:keras** package released~~
+- **rl-gym:0.1** package released, this package w/ **tensorflow-2.2 & keras-2.4.3**
