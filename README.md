@@ -26,21 +26,29 @@ you can get this environment by docker image, easily.
 ###### Pull image from the command line:
 
 ```bash
-docker pull docker.pkg.github.com/cun-bjy/walkyto-rl/rl-gym:base
+docker pull docker.pkg.github.com/cun-bjy/walkyto-rl/rl-gym
 ```
 
 ###### Use as base image in DockerFile:
 
 ```bash
-FROM docker.pkg.github.com/cun-bjy/walkyto-rl/rl-gym:base
+FROM docker.pkg.github.com/cun-bjy/walkyto-rl/rl-gym
 ```
 
 
 
+- tip! (for the easiest usage, you'd better tag the image name)
+
+  ```bash
+  docker tag docker.pkg.github.com/cun-bjy/walkyto-rl/rl-gym gym
+  ```
+
+  
+
 #### How to Run Container
 
 ```bash
-docker run -it --name gym --env="DISPLAY" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" gym:base
+docker run -it --name gym --env="DISPLAY" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" gym
 ```
 
 설명:
