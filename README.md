@@ -48,7 +48,8 @@ FROM docker.pkg.github.com/cun-bjy/walkyto-rl/rl-gym
 #### How to Run Container
 
 ```bash
-docker run -it --name gym --env="DISPLAY" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" gym
+xhost +local:
+sudo docker run -it --name gym --env="DISPLAY" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" rl-gym:0.1
 ```
 
 설명:
