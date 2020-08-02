@@ -89,7 +89,7 @@ similar to  *mujoco-ant* in openai-gym
     - **joint angles** : (hip 1~4, ankle 1~4)
   - **linear velocity of Torso** : (x, y, z)
     - **angular velocity of Torso** : (x, y, z)
-    - **joint velocities** : (hip 1~4, ankle 1~4)
+    - **joint velocities** : (hip 1,2,3,4, ankle 1,2,3,4)
   
 - actuators:
   - dim = 8
