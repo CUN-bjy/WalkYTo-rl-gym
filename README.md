@@ -84,10 +84,13 @@ similar to  *mujoco-ant* in openai-gym
 - observation
   - dim = 28
   - info = 
-    - position : 2(z,w)-axis * 8-joint
-    - velocity : 1(th_dot)-axis * 8-joint
-    - external_force(6-axis)
-
+    - **position of Torso** : (x, y, z)
+    - **orientation of Torso** : (x, y, z, w)
+    - **joint angles** : (hip 1~4, ankle 1~4)
+  - **linear velocity of Torso** : (x, y, z)
+    - **angular velocity of Torso** : (x, y, z)
+    - **joint velocities** : (hip 1~4, ankle 1~4)
+  
 - actuators:
   - dim = 8
   - info =[hip_1, hip_2, hip_3, hip_4, ankle_1, ankle_2, ankle_3, ankle_4]
