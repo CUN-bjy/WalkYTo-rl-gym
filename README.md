@@ -112,10 +112,10 @@ similar to  *mujoco-ant* in openai-gym
 
 ## What's New
 
-**2020-06-20** 
-
-- **rl-gym** environement package pre-released
-
 **2020-07-04**
 
 - **rl-gym:0.1** package released, this package w/ **tensorflow-2.2 & keras-2.4.3**
+
+**2020-06-20** 
+
+- **rl-gym** environement package pre-released
