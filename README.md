@@ -1,4 +1,5 @@
 # WalkYTo-rl
+
 Walk Yourself, Toddler! Toddlers can learn by deep reinforcement learning now.
 
 
@@ -54,9 +55,9 @@ sudo docker run -it --name gym --env="DISPLAY" --volume="/tmp/.X11-unix:/tmp/.X1
 
 설명:
 
-​	`--env="DISPLAY" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw"`
-
-​	: container내부의 환경을 host에서 GUI로 볼 수 있도록 설정
+	`--env="DISPLAY" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw"`
+	
+	: container내부의 환경을 host에서 GUI로 볼 수 있도록 설정
 
 
 
@@ -82,6 +83,7 @@ cd $HOME; python ant_v1.py
 similar to  *mujoco-ant* in openai-gym
 
 - observation
+
   - dim = 28
   - info = 
     - **position of Torso** : (x, y, z)
@@ -90,27 +92,33 @@ similar to  *mujoco-ant* in openai-gym
   - **linear velocity of Torso** : (x, y, z)
     - **angular velocity of Torso** : (x, y, z)
     - **joint velocities** : (hip 1,2,3,4, ankle 1,2,3,4)
-  
+
 - actuators:
+
   - dim = 8
   - info =[hip_1, hip_2, hip_3, hip_4, ankle_1, ankle_2, ankle_3, ankle_4]
 
 - rewards:
+
   - forward_reward : how far ANT goes on
-  
+
   - control_cost : total actuator's toque
-  
+
   - contact_cost : how many times the body contact on the ground
-  
+
   - survive_reward : how long time the ANT goes on
-  
+
     
-  
+
     <p align="center"><img src="./img/render1.png"/></p>
 
 
 
 ## What's New
+
+**2020-08-10**
+
+- **walkyto-ddpg** submodule added in this package.
 
 **2020-07-04**
 
