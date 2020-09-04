@@ -89,7 +89,7 @@ similar to  *mujoco-ant* in openai-gym
     - **position of Torso** : (x, y, z)
     - **orientation of Torso** : (x, y, z, w)
     - **joint angles** : (hip 1,2,3,4, ankle 1,2,3,4)
-  - **linear velocity of Torso** : (x, y, z)
+    - **linear velocity of Torso** : (x, y, z)
     - **angular velocity of Torso** : (x, y, z)
     - **joint velocities** : (hip 1,2,3,4, ankle 1,2,3,4)
 
