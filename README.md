@@ -1,4 +1,4 @@
-# WalkYTo-rl
+# WalkYTo-rl-gym
 
 Walk Yourself, Toddler! Toddlers can learn by deep reinforcement learning now.
 
@@ -118,7 +118,7 @@ similar to  *mujoco-ant* in openai-gym
 
 **2020-08-10**
 
-- **walkyto-ddpg** submodule added in this package.
+- **walkyto-ddpg-keras** submodule added in this package.
 
 **2020-07-04**
 
