@@ -6,12 +6,12 @@ Walk Yourself, Toddler! Toddlers can learn by deep reinforcement learning now.
 
 ## Setup Environment
 
-### Basic Environment
+**Basic Environment**
 
 - ubuntu 18.04
 - python 3.6
 
-### Including (core)packages
+**Including (core)packages**
 
 - [gym-0.15.4](https://github.com/openai/gym)
 - [roboschool-1.0.48](https://github.com/openai/roboschool)
@@ -46,10 +46,6 @@ sudo docker run -it --name gym --env="DISPLAY" --volume="/tmp/.X11-unix:/tmp/.X1
 
 - `--env="DISPLAY" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw"`
   : set to handle GUI environment from host, for Container.
-
-
-
-</br>
 
 **after making container**
 
