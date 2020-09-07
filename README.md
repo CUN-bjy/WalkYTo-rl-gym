@@ -6,12 +6,12 @@ Walk Yourself, Toddler! Toddlers can learn by deep reinforcement learning now.
 
 ## Setup Environment
 
-#### Basic Environment
+### Basic Environment
 
 - ubuntu 18.04
 - python 3.6
 
-#### Including (core)packages
+### Including (core)packages
 
 - [gym-0.15.4](https://github.com/openai/gym)
 - [roboschool-1.0.48](https://github.com/openai/roboschool)
@@ -20,7 +20,7 @@ Walk Yourself, Toddler! Toddlers can learn by deep reinforcement learning now.
 
 </br>
 
-#### Installation from Docker Image
+### Installation from Docker Image
 
 you can get this environment by docker image, easily.
 
@@ -35,7 +35,7 @@ follow this [page](https://github.com/CUN-bjy/WalkYTo-rl-gym/packages/278485)
 
 </br>
 
-#### How to Run Container
+### How to Run Container
 
 **at the first time**(make a container)
 
@@ -46,9 +46,10 @@ sudo docker run -it --name gym --env="DISPLAY" --volume="/tmp/.X11-unix:/tmp/.X1
 
 details:
 
-	`--env="DISPLAY" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw"`
-	
-	: set to handle GUI environment from host, for Container.
+```bash
+--env="DISPLAY" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw"
+: set to handle GUI environment from host, for Container.
+```
 
 </br>
 
@@ -62,7 +63,7 @@ sudo docker exec -it gym bash
 
 </br>
 
-#### Test Code on Container
+### Test Code on Container
 
 ```bash
 #on the container
@@ -73,13 +74,21 @@ cd $HOME; python ant_v1.py
 
 <img src="./img/ant_v1.png" style="zoom:30%;" />
 
-
-
 </br>
+
+### Trouble Shooting
+
+- **illegal instruction (core dumped)** issue -> [link](https://github.com/CUN-bjy/WalkYTo-rl-gym/issues/5)
+
+If you have some problem with this installation, issue up plz.
+
+
+
+
 
 ## About Models
 
-#### RoboschoolAnt
+#### Model: RoboschoolAnt
 
 similar to  *mujoco-ant* in openai-gym
 
