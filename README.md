@@ -28,7 +28,6 @@ you can get this environment by docker image, easily.
 
 ```bash
 sudo docker pull docker.pkg.github.com/cun-bjy/walkyto-rl-gym/rl-gym:0.1
-sudo docker tag docker.pkg.github.com/cun-bjy/walkyto-rl-gym/rl-gym rl-gym:0.1
 ```
 
 follow this [page](https://github.com/CUN-bjy/WalkYTo-rl-gym/packages/278485)
@@ -41,7 +40,7 @@ follow this [page](https://github.com/CUN-bjy/WalkYTo-rl-gym/packages/278485)
 
 ```bash
 xhost +local:
-sudo docker run -it --name gym --env="DISPLAY" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" rl-gym:0.1
+sudo docker run -it --name gym --env="DISPLAY" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" docker.pkg.github.com/cun-bjy/walkyto-rl-gym/rl-gym:0.1
 ```
 
 - `--env="DISPLAY" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw"`
