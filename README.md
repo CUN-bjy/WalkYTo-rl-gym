@@ -27,16 +27,15 @@ you can get this environment by docker image, easily.
 ###### Pull image from the command line:
 
 ```bash
-docker pull docker.pkg.github.com/cun-bjy/walkyto-rl/rl-gym
+docker pull docker.pkg.github.com/cun-bjy/walkyto-rl-gym/rl-gym
 ```
+follow this [page](https://github.com/CUN-bjy/WalkYTo-rl-gym/packages/278485)
 
 ###### Use as base image in DockerFile:
 
 ```bash
-FROM docker.pkg.github.com/cun-bjy/walkyto-rl/rl-gym
+FROM docker.pkg.github.com/cun-bjy/walkyto-rl-gym/rl-gym
 ```
-
-
 
 - tip! (for the easiest usage, you'd better tag the image name)
 
