@@ -40,7 +40,7 @@ FROM docker.pkg.github.com/cun-bjy/walkyto-rl-gym/rl-gym:0.1
 - tip! (for the easiest usage, you'd better tag the image name)
 
   ```bash
-  docker tag docker.pkg.github.com/cun-bjy/walkyto-rl-gym/rl-gym:0.1 gym
+  docker tag docker.pkg.github.com/cun-bjy/walkyto-rl-gym/rl-gym:0.1 rl-gym
   ```
 
   
