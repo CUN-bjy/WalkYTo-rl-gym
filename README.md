@@ -44,12 +44,10 @@ xhost +local:
 sudo docker run -it --name gym --env="DISPLAY" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" rl-gym:0.1
 ```
 
-details:
+- `--env="DISPLAY" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw"`
+  : set to handle GUI environment from host, for Container.
 
-```bash
---env="DISPLAY" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw"
-: set to handle GUI environment from host, for Container.
-```
+
 
 </br>
 
