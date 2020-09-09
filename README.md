@@ -76,8 +76,7 @@ cd $HOME; python ant_v1.py
 If you have some problem with this installation, issue up plz.
 
 
-
-
+</br>
 
 ## About Models
 
